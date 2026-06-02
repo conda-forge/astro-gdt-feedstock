@@ -1,4 +1,4 @@
-{% set version = "2.2.2" %}
+{% set version = "2.2.3" %}
 {% set python_min = "3.11" %}
 
 
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/a/astro-gdt/astro_gdt-{{ version }}.tar.gz
-  sha256: 43e2c28cd740e4817faa8869cbfb9e2b3bbb23d1e3430e8fc7c6a83864848fba
+  sha256: 6023d456a83bebce6eb8cbf50b9b099ba549776a7f66a576e6afcfd107b8e781
 
 build:
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
