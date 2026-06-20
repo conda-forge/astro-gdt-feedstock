@@ -26,12 +26,13 @@ requirements:
     - python >={{ python_min }}
     - pyproj >=1.9.6
     - numpy >=2.2.3
-    - scipy ==1.15.2
+    - scipy >=1.16.3
     - astropy-base >=7.0.0
     - matplotlib-base >=3.10.0,<3.11.dev0
     - healpy >=1.18.0,<1.19.dev0
     - cartopy >=0.21.1
     - rich >=13.3.3
+    - statsmodels >= 0.4.16
 
 test:
   imports:
