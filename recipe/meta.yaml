@@ -32,7 +32,7 @@ requirements:
     - healpy >=1.18.0,<1.19.dev0
     - cartopy >=0.21.1
     - rich >=13.3.3
-    - statsmodels >= 0.4.16
+    - statsmodels >=0.4.16
 
 test:
   imports:
